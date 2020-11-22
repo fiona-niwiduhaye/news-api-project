@@ -30,7 +30,6 @@ def get_sources(source):
     return source_results
 
 
-
 def process_results(source_list):
     """
     Function that processes the source result and transform them into a list of objects
