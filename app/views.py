@@ -15,7 +15,6 @@ def index():
 
       return render_template('index.html', sources = sources)
 
-
 @app.route('/articles/<id>')
 def articles(id):
     """
