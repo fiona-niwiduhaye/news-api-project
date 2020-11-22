@@ -3,6 +3,7 @@ from app import app
 from .request import get_sources
 from .request import get_articles
 from .models import Source,Article
+
 # Views
 @app.route('/')
 def index():
@@ -10,7 +11,7 @@ def index():
       View root page function that returns the index page and its data
       """
       #Getting source
-      
+
       sources = get_sources('sources')
 
       return render_template('index.html', sources = sources)
