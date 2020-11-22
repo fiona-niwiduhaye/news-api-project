@@ -10,6 +10,7 @@ def index():
       View root page function that returns the index page and its data
       """
       #Getting source
+      
       sources = get_sources('sources')
 
       return render_template('index.html', sources = sources)
@@ -21,5 +22,5 @@ def articles(id):
     """
     articles = get_articles(id)
     title= f'{id}'
-    
+
     return render_template('articles.html', id = id,articles= articles)
