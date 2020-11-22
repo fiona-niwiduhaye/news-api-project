@@ -9,6 +9,7 @@ class Source:
         self.url= url
         self.category = category
 
+
 class Article:
     """
     Article class to define Source Articles
