@@ -6,7 +6,6 @@ class Config:
 
     ARTICLE_API_BASE_URL= 'https://newsapi.org/v2/everything?sources={}&apiKey={}'
     
-
 class ProdConfig:
     '''
     Production  configuration child class
@@ -14,7 +13,7 @@ class ProdConfig:
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-    
+
     pass
 
 class DevConfig:
