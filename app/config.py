@@ -17,7 +17,6 @@ class ProdConfig:
 
     pass
 
-
 class DevConfig:
     '''
     Development  configuration child class
