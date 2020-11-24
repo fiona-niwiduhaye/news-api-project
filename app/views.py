@@ -4,7 +4,6 @@ from .request import get_sources
 from .request import get_articles
 from .models import Source,Article
 
-
 @app.route('/')
 def index():
       """
