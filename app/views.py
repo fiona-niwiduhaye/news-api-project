@@ -4,6 +4,7 @@ from .request import get_sources
 from .request import get_articles
 from .models import Source,Article
 
+
 @app.route('/')
 def index():
       """
@@ -11,7 +12,7 @@ def index():
       """
       #Getting source
 
-      sources = get_sources('sources')
+      sources = get_sources('general')
 
       return render_template('index.html', sources = sources)
 

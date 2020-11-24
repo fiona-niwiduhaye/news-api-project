@@ -1,10 +1,17 @@
-{% import 'macros.html' as macro%}
+{% import 'macros.html' as macro %}
 {% extends 'base.html' %}
 
-{%block content%}
-  <div class="jumbotron">
-    <h1 class="text-center">News Sources</h1>
-  </div>
+{% block styles%}
+    {{ super() }}
+  
+<link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
+{% endblock %}
 
+{% block content %}
+   <div class="one">
+    <h1 class="text-center"> 24/7 News</h1>
+    <h2 class="text-center">Find here Top Breaking News all Over The World</h2>
+  
+  </div>
   {{macro.displaySourcesList(sources)}}
-{%endblock%}
+{% endblock %}

@@ -1,0 +1,35 @@
+
+
+  .panel{
+
+    color: white;
+  
+    border: 5px;
+    padding: 8px;
+    background-color: black;
+    background-color: rgba(0,0,0, 0.8);
+  
+  }
+  
+  
+  .jumbotron {
+      margin-top: 0px;
+      margin-bottom: 0px;
+      height:140px;
+      width: 550px;
+      margin: auto;
+  
+      background-position: 20% 56%;
+      background-color: black;
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: white;
+      text-shadow: black 0.9em 0.9em 0.9em;
+  
+  }
+  a{
+    color:blue;
+    text-decoration: underline;
+    font-size: 18px;
+  }
+  
